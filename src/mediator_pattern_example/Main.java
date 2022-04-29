@@ -1,4 +1,4 @@
-package mediator_pattern;
+package mediator_pattern_example;
 
 public class Main {
     public static void main(String[] args) {

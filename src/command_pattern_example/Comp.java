@@ -1,4 +1,4 @@
-package command_example;
+package command_pattern_example;
 //receiver
 public class Comp {
     void start(){

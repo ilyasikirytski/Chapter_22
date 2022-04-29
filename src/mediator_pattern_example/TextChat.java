@@ -1,4 +1,4 @@
-package mediator_pattern;
+package mediator_pattern_example;
 
 import java.util.ArrayList;
 import java.util.List;

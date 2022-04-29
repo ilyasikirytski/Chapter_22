@@ -1,4 +1,4 @@
-package command_example;
+package command_pattern_example;
 
 public class Main {
     public static void main(String[] args) {

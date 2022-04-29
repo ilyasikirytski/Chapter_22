@@ -1,4 +1,4 @@
-package iterator_example;
+package iterator_pattern_example;
 
 public class ConcreteAggregate implements Aggregate {
     String[] tasks;

@@ -1,4 +1,4 @@
-package iterator_example;
+package iterator_pattern_example;
 
 public class Main {
     public static void main(String[] args) {

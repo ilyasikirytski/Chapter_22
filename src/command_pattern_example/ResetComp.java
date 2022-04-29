@@ -1,4 +1,4 @@
-package command_example;
+package command_pattern_example;
 //concrete command
 public class ResetComp implements Command{
     Comp computer;

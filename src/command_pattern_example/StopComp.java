@@ -1,4 +1,4 @@
-package command_example;
+package command_pattern_example;
 //concrete command
 public class StopComp implements Command{
     Comp computer;

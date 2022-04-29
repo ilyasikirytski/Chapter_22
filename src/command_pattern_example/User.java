@@ -1,4 +1,4 @@
-package command_example;
+package command_pattern_example;
 //invoker
 public class User {
     Command start;
