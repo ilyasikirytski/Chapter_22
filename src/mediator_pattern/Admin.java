@@ -1,5 +1,5 @@
 package mediator_pattern;
-
+//concrete mediator1
 public class Admin implements User {
     Chat chat;
 

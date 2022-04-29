@@ -1,5 +1,5 @@
 package mediator_pattern;
-
+//concrete mediator2
 public class SimpleUser implements User {
     Chat chat;
 
