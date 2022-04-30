@@ -3,7 +3,7 @@ package strategy_pattern_example;
 import java.util.Arrays;
 
 //concrete strategy
-public class InsertingSort implements Sorting {
+public class InsertionSort implements Sorting {
     @Override
     public void sort(int[] arr) {
         System.out.println("before inserting sort: " + Arrays.toString(arr));

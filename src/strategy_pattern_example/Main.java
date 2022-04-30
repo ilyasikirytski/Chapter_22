@@ -7,7 +7,7 @@ public class Main {
         int[] arr = {0, 3, 8, 1, 4};
 //        new BubbleSort()
 //        new InsertingSort();
-        strategyClient.setStrategy(new InsertingSort());
+        strategyClient.setStrategy(new InsertionSort());
         strategyClient.executeStrategy(arr);
     }
 }
