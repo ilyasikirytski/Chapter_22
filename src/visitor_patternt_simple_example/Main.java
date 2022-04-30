@@ -1,7 +1,5 @@
 package visitor_patternt_simple_example;
 
-import visitor_pattern_example.EngineElement;
-
 public class Main {
     public static void main(String[] args) {
 //        new BadVisitor();
