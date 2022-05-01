@@ -18,4 +18,9 @@ public class BubbleSort implements Sorting {
         }
         System.out.println("after bubble sort: " + Arrays.toString(arr));
     }
+
+    @Override
+    public void findMinMax(int[] arr) {
+
+    }
 }

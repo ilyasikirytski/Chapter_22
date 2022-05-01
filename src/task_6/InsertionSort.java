@@ -18,4 +18,9 @@ public class InsertionSort implements Sorting {
         }
         System.out.println("after inserting sort: " + Arrays.toString(arr));
     }
+
+    @Override
+    public void findMinMax(int[] arr) {
+
+    }
 }

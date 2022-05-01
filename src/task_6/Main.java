@@ -11,7 +11,8 @@ public class Main {
 //        new BubbleSort;
 //        new SelectionSort;
         strategyClient.setStrategy(new InsertionSort());
-        int[] arr = {9,1,8,2,7,3,6,4,5};
+        strategyClient.setStrategyOfFindingMinMax(new StrategyFindingMinMax());
+        int[] arr = {9, 1, -98, 8, 2, 102, 7, 3, 6, 4, 5};
         strategyClient.executeStrategy(arr);
     }
 }

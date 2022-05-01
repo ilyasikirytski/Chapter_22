@@ -18,4 +18,9 @@ public class SelectionSort implements Sorting {
         }
         System.out.println("after selection sort: " + Arrays.toString(arr));
     }
+
+    @Override
+    public void findMinMax(int[] arr) {
+
+    }
 }
