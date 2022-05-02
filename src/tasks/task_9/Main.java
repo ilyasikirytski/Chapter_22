@@ -10,6 +10,16 @@ package tasks.task_9;
  */
 public class Main {
     public static void main(String[] args) {
+        Payment payment = new UsualPayment(Purposes.USUAL);
+        Payment payment1 = new PreferentialPayment(Purposes.PREFERENTIAl);
+        Payment payment2 = new BankPayment(Purposes.BANK);
+        Payment payment3 = new GovermentPayment(Purposes.GOVERMENT);
 
+        payment.setNextPayment(payment1);
+        payment1.setNextPayment(payment2);
+        payment2.setNextPayment(payment3);
+
+//       here you can change purpose bu enum
+        payment.makePayment(Purposes.BANK);
     }
 }
