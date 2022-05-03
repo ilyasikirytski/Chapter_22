@@ -512,36 +512,29 @@ title __CHAPTER_22's Class Diagram__\n
   }
   
 
-  namespace tasks.task_1 {
-    namespace  {
+  namespace tasks.task_12 {
       class tasks.task_12.Article {
       }
     }
-  }
+
   
 
-  namespace tasks.task_1 {
-    namespace  {
+  namespace tasks.task_12 {
       class tasks.task_12.File {
       }
-    }
   }
   
 
-  namespace tasks.task_1 {
-    namespace  {
+  namespace tasks.task_12 {
       class tasks.task_12.Main {
       }
     }
-  }
   
 
-  namespace tasks.task_1 {
-    namespace  {
+  namespace tasks.task_12 {
       class tasks.task_12.Save {
       }
     }
-  }
   
 
   namespace tasks.task_5 {
