@@ -18,11 +18,6 @@ public class Article {
         return new Save(header, article);
     }
 
-    public void loadOriginalArticle(Save save) {
-        this.header = save.getHeader();
-        this.article = save.getArticle();
-    }
-
     @Override
     public String toString() {
         return "Article{" +

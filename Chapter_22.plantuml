@@ -1,0 +1,852 @@
+@startuml
+
+title __CHAPTER_22's Class Diagram__\n
+
+  namespace pattern_examples.chain_of_responsibility_example {
+    class pattern_examples.chain_of_responsibility_example.EmailLogger {
+    }
+  }
+  
+
+  namespace pattern_examples.chain_of_responsibility_example {
+    class pattern_examples.chain_of_responsibility_example.FileLogger {
+    }
+  }
+  
+
+  namespace pattern_examples.chain_of_responsibility_example {
+    class pattern_examples.chain_of_responsibility_example.Level {
+    }
+  }
+  
+
+  namespace pattern_examples.chain_of_responsibility_example {
+    abstract class pattern_examples.chain_of_responsibility_example.Logger {
+    }
+  }
+  
+
+  namespace pattern_examples.chain_of_responsibility_example {
+    class pattern_examples.chain_of_responsibility_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.chain_of_responsibility_example {
+    class pattern_examples.chain_of_responsibility_example.SMSLogger {
+    }
+  }
+  
+
+  namespace pattern_examples.command_pattern_example {
+    interface pattern_examples.command_pattern_example.Command {
+    }
+  }
+  
+
+  namespace pattern_examples.command_pattern_example {
+    class pattern_examples.command_pattern_example.Comp {
+    }
+  }
+  
+
+  namespace pattern_examples.command_pattern_example {
+    class pattern_examples.command_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.command_pattern_example {
+    class pattern_examples.command_pattern_example.ResetComp {
+    }
+  }
+  
+
+  namespace pattern_examples.command_pattern_example {
+    class pattern_examples.command_pattern_example.StartComp {
+    }
+  }
+  
+
+  namespace pattern_examples.command_pattern_example {
+    class pattern_examples.command_pattern_example.StopComp {
+    }
+  }
+  
+
+  namespace pattern_examples.command_pattern_example {
+    class pattern_examples.command_pattern_example.User {
+    }
+  }
+  
+
+  namespace pattern_examples.interpreter_pattern_example {
+    class pattern_examples.interpreter_pattern_example.Context {
+    }
+  }
+  
+
+  namespace pattern_examples.interpreter_pattern_example {
+    interface pattern_examples.interpreter_pattern_example.Expression {
+    }
+  }
+  
+
+  namespace pattern_examples.interpreter_pattern_example {
+    class pattern_examples.interpreter_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.interpreter_pattern_example {
+    class pattern_examples.interpreter_pattern_example.MinusExpression {
+    }
+  }
+  
+
+  namespace pattern_examples.interpreter_pattern_example {
+    class pattern_examples.interpreter_pattern_example.NumberExpression {
+    }
+  }
+  
+
+  namespace pattern_examples.interpreter_pattern_example {
+    class pattern_examples.interpreter_pattern_example.PlusExpression {
+    }
+  }
+  
+
+  namespace pattern_examples.iterator_pattern_example {
+    interface pattern_examples.iterator_pattern_example.Aggregate {
+    }
+  }
+  
+
+  namespace pattern_examples.iterator_pattern_example {
+    class pattern_examples.iterator_pattern_example.ConcreteAggregate {
+    }
+  }
+  
+
+  namespace pattern_examples.iterator_pattern_example {
+    interface pattern_examples.iterator_pattern_example.Iterator {
+    }
+  }
+  
+
+  namespace pattern_examples.iterator_pattern_example {
+    class pattern_examples.iterator_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.mediator_pattern_example {
+    class pattern_examples.mediator_pattern_example.Admin {
+    }
+  }
+  
+
+  namespace pattern_examples.mediator_pattern_example {
+    interface pattern_examples.mediator_pattern_example.Chat {
+    }
+  }
+  
+
+  namespace pattern_examples.mediator_pattern_example {
+    class pattern_examples.mediator_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.mediator_pattern_example {
+    class pattern_examples.mediator_pattern_example.SimpleUser {
+    }
+  }
+  
+
+  namespace pattern_examples.mediator_pattern_example {
+    class pattern_examples.mediator_pattern_example.TextChat {
+    }
+  }
+  
+
+  namespace pattern_examples.mediator_pattern_example {
+    interface pattern_examples.mediator_pattern_example.User {
+    }
+  }
+  
+
+  namespace pattern_examples.memento_pattern_example {
+    class pattern_examples.memento_pattern_example.File {
+    }
+  }
+  
+
+  namespace pattern_examples.memento_pattern_example {
+    class pattern_examples.memento_pattern_example.Game {
+    }
+  }
+  
+
+  namespace pattern_examples.memento_pattern_example {
+    class pattern_examples.memento_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.memento_pattern_example {
+    class pattern_examples.memento_pattern_example.Save {
+    }
+  }
+  
+
+  namespace pattern_examples.observer_pattern_example {
+    class pattern_examples.observer_pattern_example.ConsoleObserver {
+    }
+  }
+  
+
+  namespace pattern_examples.observer_pattern_example {
+    class pattern_examples.observer_pattern_example.FileObserver {
+    }
+  }
+  
+
+  namespace pattern_examples.observer_pattern_example {
+    class pattern_examples.observer_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.observer_pattern_example {
+    class pattern_examples.observer_pattern_example.MeteoStation {
+    }
+  }
+  
+
+  namespace pattern_examples.observer_pattern_example {
+    interface pattern_examples.observer_pattern_example.Observed {
+    }
+  }
+  
+
+  namespace pattern_examples.observer_pattern_example {
+    interface pattern_examples.observer_pattern_example.Observer {
+    }
+  }
+  
+
+  namespace pattern_examples.state_pattern_example1 {
+    class pattern_examples.state_pattern_example1.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.state_pattern_example1 {
+    class pattern_examples.state_pattern_example1.Radio {
+    }
+  }
+  
+
+  namespace pattern_examples.state_pattern_example1 {
+    class pattern_examples.state_pattern_example1.Radio1 {
+    }
+  }
+  
+
+  namespace pattern_examples.state_pattern_example1 {
+    class pattern_examples.state_pattern_example1.Radio2 {
+    }
+  }
+  
+
+  namespace pattern_examples.state_pattern_example1 {
+    class pattern_examples.state_pattern_example1.Radio3 {
+    }
+  }
+  
+
+  namespace pattern_examples.state_pattern_example1 {
+    interface pattern_examples.state_pattern_example1.RadioStation {
+    }
+  }
+  
+
+  namespace pattern_examples.state_pattern_example2 {
+    interface pattern_examples.state_pattern_example2.Activity {
+    }
+  }
+  
+
+  namespace pattern_examples.state_pattern_example2 {
+    class pattern_examples.state_pattern_example2.Human {
+    }
+  }
+  
+
+  namespace pattern_examples.state_pattern_example2 {
+    class pattern_examples.state_pattern_example2.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.state_pattern_example2 {
+    class pattern_examples.state_pattern_example2.WeekEnd {
+    }
+  }
+  
+
+  namespace pattern_examples.state_pattern_example2 {
+    class pattern_examples.state_pattern_example2.Work {
+    }
+  }
+  
+
+  namespace pattern_examples.strategy_pattern_example {
+    class pattern_examples.strategy_pattern_example.BubbleSort {
+    }
+  }
+  
+
+  namespace pattern_examples.strategy_pattern_example {
+    class pattern_examples.strategy_pattern_example.InsertionSort {
+    }
+  }
+  
+
+  namespace pattern_examples.strategy_pattern_example {
+    class pattern_examples.strategy_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.strategy_pattern_example {
+    class pattern_examples.strategy_pattern_example.SelectionSort {
+    }
+  }
+  
+
+  namespace pattern_examples.strategy_pattern_example {
+    interface pattern_examples.strategy_pattern_example.Sorting {
+    }
+  }
+  
+
+  namespace pattern_examples.strategy_pattern_example {
+    class pattern_examples.strategy_pattern_example.StrategyClient {
+    }
+  }
+  
+
+  namespace pattern_examples.template_method_pattern_example {
+    abstract class pattern_examples.template_method_pattern_example.AbstractClassC {
+    }
+  }
+  
+
+  namespace pattern_examples.template_method_pattern_example {
+    class pattern_examples.template_method_pattern_example.ClassA {
+    }
+  }
+  
+
+  namespace pattern_examples.template_method_pattern_example {
+    class pattern_examples.template_method_pattern_example.ClassB {
+    }
+  }
+  
+
+  namespace pattern_examples.template_method_pattern_example {
+    class pattern_examples.template_method_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_pattern_example {
+    class pattern_examples.visitor_pattern_example.BadVisitor {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_pattern_example {
+    class pattern_examples.visitor_pattern_example.BodyElement {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_pattern_example {
+    class pattern_examples.visitor_pattern_example.CarElement {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_pattern_example {
+    interface pattern_examples.visitor_pattern_example.Element {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_pattern_example {
+    class pattern_examples.visitor_pattern_example.EngineElement {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_pattern_example {
+    class pattern_examples.visitor_pattern_example.GoodVisitor {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_pattern_example {
+    class pattern_examples.visitor_pattern_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_pattern_example {
+    interface pattern_examples.visitor_pattern_example.Visitor {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_pattern_example {
+    class pattern_examples.visitor_pattern_example.WheelElement {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_patternt_simple_example {
+    class pattern_examples.visitor_patternt_simple_example.BadVisitor {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_patternt_simple_example {
+    class pattern_examples.visitor_patternt_simple_example.BodyElement {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_patternt_simple_example {
+    interface pattern_examples.visitor_patternt_simple_example.Element {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_patternt_simple_example {
+    class pattern_examples.visitor_patternt_simple_example.EngineElement {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_patternt_simple_example {
+    class pattern_examples.visitor_patternt_simple_example.GoodVisitor {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_patternt_simple_example {
+    class pattern_examples.visitor_patternt_simple_example.Main {
+    }
+  }
+  
+
+  namespace pattern_examples.visitor_patternt_simple_example {
+    interface pattern_examples.visitor_patternt_simple_example.Visitor {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.AndExpression {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.ComparisonExpression {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.CompoundExpression {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.ContainsExpression {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.EqualsExpression {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    interface tasks.task_1.Expression {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.Main {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.NegationExpression {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    class tasks.task_1.OrExpression {
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    namespace  {
+      class tasks.task_12.Article {
+      }
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    namespace  {
+      class tasks.task_12.File {
+      }
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    namespace  {
+      class tasks.task_12.Main {
+      }
+    }
+  }
+  
+
+  namespace tasks.task_1 {
+    namespace  {
+      class tasks.task_12.Save {
+      }
+    }
+  }
+  
+
+  namespace tasks.task_5 {
+    class tasks.task_5.Book {
+    }
+  }
+  
+
+  namespace tasks.task_5 {
+    class tasks.task_5.Magazine {
+    }
+  }
+  
+
+  namespace tasks.task_5 {
+    class tasks.task_5.Main {
+    }
+  }
+  
+
+  namespace tasks.task_5 {
+    interface tasks.task_5.Observed {
+    }
+  }
+  
+
+  namespace tasks.task_5 {
+    interface tasks.task_5.Observer {
+    }
+  }
+  
+
+  namespace tasks.task_5 {
+    class tasks.task_5.PostalOffice {
+    }
+  }
+  
+
+  namespace tasks.task_5 {
+    class tasks.task_5.Publisher {
+    }
+  }
+  
+
+  namespace tasks.task_5 {
+    class tasks.task_5.Subscriber1 {
+    }
+  }
+  
+
+  namespace tasks.task_5 {
+    class tasks.task_5.Subscriber2 {
+    }
+  }
+  
+
+  namespace tasks.task_5 {
+    class tasks.task_5.Subscriber3 {
+    }
+  }
+  
+
+  namespace tasks.task_6 {
+    class tasks.task_6.BubbleSort {
+    }
+  }
+  
+
+  namespace tasks.task_6 {
+    class tasks.task_6.InsertionSort {
+    }
+  }
+  
+
+  namespace tasks.task_6 {
+    class tasks.task_6.Main {
+    }
+  }
+  
+
+  namespace tasks.task_6 {
+    class tasks.task_6.SelectionSort {
+    }
+  }
+  
+
+  namespace tasks.task_6 {
+    interface tasks.task_6.Sorting {
+    }
+  }
+  
+
+  namespace tasks.task_6 {
+    class tasks.task_6.StrategyClient {
+    }
+  }
+  
+
+  namespace tasks.task_6 {
+    class tasks.task_6.StrategyFindingMinMax {
+    }
+  }
+  
+
+  namespace tasks.task_7 {
+    class tasks.task_7.ConfirmedOrder {
+    }
+  }
+  
+
+  namespace tasks.task_7 {
+    class tasks.task_7.ConsideredOrder {
+    }
+  }
+  
+
+  namespace tasks.task_7 {
+    class tasks.task_7.CreatedOrder {
+    }
+  }
+  
+
+  namespace tasks.task_7 {
+    class tasks.task_7.Main {
+    }
+  }
+  
+
+  namespace tasks.task_7 {
+    class tasks.task_7.MyOrder {
+    }
+  }
+  
+
+  namespace tasks.task_7 {
+    class tasks.task_7.OrderGrant {
+    }
+  }
+  
+
+  namespace tasks.task_7 {
+    class tasks.task_7.PostponedOrder {
+    }
+  }
+  
+
+  namespace tasks.task_7 {
+    class tasks.task_7.RejectedOrder {
+    }
+  }
+  
+
+  namespace tasks.task_7 {
+    interface tasks.task_7.State {
+    }
+  }
+  
+
+  namespace tasks.task_7 {
+    class tasks.task_7.WithdrawnOrder {
+    }
+  }
+  
+
+  namespace tasks.task_9 {
+    class tasks.task_9.BankPayment {
+    }
+  }
+  
+
+  namespace tasks.task_9 {
+    class tasks.task_9.GovermentPayment {
+    }
+  }
+  
+
+  namespace tasks.task_9 {
+    class tasks.task_9.Main {
+    }
+  }
+  
+
+  namespace tasks.task_9 {
+    abstract class tasks.task_9.Payment {
+    }
+  }
+  
+
+  namespace tasks.task_9 {
+    class tasks.task_9.PreferentialPayment {
+    }
+  }
+  
+
+  namespace tasks.task_9 {
+    enum Purposes {
+    }
+  }
+  
+
+  namespace tasks.task_9 {
+    class tasks.task_9.UsualPayment {
+    }
+  }
+  
+
+  pattern_examples.chain_of_responsibility_example.EmailLogger -up-|> pattern_examples.chain_of_responsibility_example.Logger
+  pattern_examples.chain_of_responsibility_example.FileLogger -up-|> pattern_examples.chain_of_responsibility_example.Logger
+  pattern_examples.chain_of_responsibility_example.Logger o-- pattern_examples.chain_of_responsibility_example.Logger : nextLogger
+  pattern_examples.chain_of_responsibility_example.SMSLogger -up-|> pattern_examples.chain_of_responsibility_example.Logger
+  pattern_examples.command_pattern_example.ResetComp .up.|> pattern_examples.command_pattern_example.Command
+  pattern_examples.command_pattern_example.ResetComp o-- pattern_examples.command_pattern_example.Comp : computer
+  pattern_examples.command_pattern_example.StartComp .up.|> pattern_examples.command_pattern_example.Command
+  pattern_examples.command_pattern_example.StartComp o-- pattern_examples.command_pattern_example.Comp : computer
+  pattern_examples.command_pattern_example.StopComp .up.|> pattern_examples.command_pattern_example.Command
+  pattern_examples.command_pattern_example.StopComp o-- pattern_examples.command_pattern_example.Comp : computer
+  pattern_examples.command_pattern_example.User o-- pattern_examples.command_pattern_example.Command : reset
+  pattern_examples.command_pattern_example.User o-- pattern_examples.command_pattern_example.Command : start
+  pattern_examples.command_pattern_example.User o-- pattern_examples.command_pattern_example.Command : stop
+  pattern_examples.interpreter_pattern_example.MinusExpression .up.|> pattern_examples.interpreter_pattern_example.Expression
+  pattern_examples.interpreter_pattern_example.MinusExpression o-- pattern_examples.interpreter_pattern_example.Expression : left
+  pattern_examples.interpreter_pattern_example.MinusExpression o-- pattern_examples.interpreter_pattern_example.Expression : right
+  pattern_examples.interpreter_pattern_example.NumberExpression .up.|> pattern_examples.interpreter_pattern_example.Expression
+  pattern_examples.interpreter_pattern_example.PlusExpression .up.|> pattern_examples.interpreter_pattern_example.Expression
+  pattern_examples.interpreter_pattern_example.PlusExpression o-- pattern_examples.interpreter_pattern_example.Expression : left
+  pattern_examples.interpreter_pattern_example.PlusExpression o-- pattern_examples.interpreter_pattern_example.Expression : right
+  pattern_examples.iterator_pattern_example.ConcreteAggregate .up.|> pattern_examples.iterator_pattern_example.Aggregate
+  pattern_examples.mediator_pattern_example.Admin .up.|> pattern_examples.mediator_pattern_example.User
+  pattern_examples.mediator_pattern_example.Admin o-- pattern_examples.mediator_pattern_example.Chat : chat
+  pattern_examples.mediator_pattern_example.SimpleUser .up.|> pattern_examples.mediator_pattern_example.User
+  pattern_examples.mediator_pattern_example.SimpleUser o-- pattern_examples.mediator_pattern_example.Chat : chat
+  pattern_examples.mediator_pattern_example.TextChat .up.|> pattern_examples.mediator_pattern_example.Chat
+  pattern_examples.mediator_pattern_example.TextChat o-- pattern_examples.mediator_pattern_example.User : admin
+  pattern_examples.memento_pattern_example.File o-- pattern_examples.memento_pattern_example.Save : save
+  pattern_examples.observer_pattern_example.ConsoleObserver .up.|> pattern_examples.observer_pattern_example.Observer
+  pattern_examples.observer_pattern_example.FileObserver .up.|> pattern_examples.observer_pattern_example.Observer
+  pattern_examples.observer_pattern_example.MeteoStation .up.|> pattern_examples.observer_pattern_example.Observed
+  pattern_examples.state_pattern_example1.Radio o-- pattern_examples.state_pattern_example1.RadioStation : radioStation
+  pattern_examples.state_pattern_example1.Radio1 .up.|> pattern_examples.state_pattern_example1.RadioStation
+  pattern_examples.state_pattern_example1.Radio2 .up.|> pattern_examples.state_pattern_example1.RadioStation
+  pattern_examples.state_pattern_example1.Radio3 .up.|> pattern_examples.state_pattern_example1.RadioStation
+  pattern_examples.state_pattern_example2.Human o-- pattern_examples.state_pattern_example2.Activity : state
+  pattern_examples.state_pattern_example2.WeekEnd .up.|> pattern_examples.state_pattern_example2.Activity
+  pattern_examples.state_pattern_example2.Work .up.|> pattern_examples.state_pattern_example2.Activity
+  pattern_examples.strategy_pattern_example.BubbleSort .up.|> pattern_examples.strategy_pattern_example.Sorting
+  pattern_examples.strategy_pattern_example.InsertionSort .up.|> pattern_examples.strategy_pattern_example.Sorting
+  pattern_examples.strategy_pattern_example.SelectionSort .up.|> pattern_examples.strategy_pattern_example.Sorting
+  pattern_examples.strategy_pattern_example.StrategyClient o-- pattern_examples.strategy_pattern_example.Sorting : strategy
+  pattern_examples.template_method_pattern_example.ClassA -up-|> pattern_examples.template_method_pattern_example.AbstractClassC
+  pattern_examples.template_method_pattern_example.ClassB -up-|> pattern_examples.template_method_pattern_example.AbstractClassC
+  pattern_examples.visitor_pattern_example.BadVisitor .up.|> pattern_examples.visitor_pattern_example.Visitor
+  pattern_examples.visitor_pattern_example.BodyElement .up.|> pattern_examples.visitor_pattern_example.Element
+  pattern_examples.visitor_pattern_example.CarElement .up.|> pattern_examples.visitor_pattern_example.Element
+  pattern_examples.visitor_pattern_example.EngineElement .up.|> pattern_examples.visitor_pattern_example.Element
+  pattern_examples.visitor_pattern_example.GoodVisitor .up.|> pattern_examples.visitor_pattern_example.Visitor
+  pattern_examples.visitor_pattern_example.WheelElement .up.|> pattern_examples.visitor_pattern_example.Element
+  pattern_examples.visitor_patternt_simple_example.BadVisitor .up.|> pattern_examples.visitor_patternt_simple_example.Visitor
+  pattern_examples.visitor_patternt_simple_example.BodyElement .up.|> pattern_examples.visitor_patternt_simple_example.Element
+  pattern_examples.visitor_patternt_simple_example.EngineElement .up.|> pattern_examples.visitor_patternt_simple_example.Element
+  pattern_examples.visitor_patternt_simple_example.GoodVisitor .up.|> pattern_examples.visitor_patternt_simple_example.Visitor
+  tasks.task_1.AndExpression .up.|> tasks.task_1.Expression
+  tasks.task_1.AndExpression o-- tasks.task_1.Expression : left
+  tasks.task_1.AndExpression o-- tasks.task_1.Expression : right
+  tasks.task_1.ComparisonExpression .up.|> tasks.task_1.Expression
+  tasks.task_1.CompoundExpression .up.|> tasks.task_1.Expression
+  tasks.task_1.ContainsExpression .up.|> tasks.task_1.Expression
+  tasks.task_1.EqualsExpression .up.|> tasks.task_1.Expression
+  tasks.task_1.NegationExpression .up.|> tasks.task_1.Expression
+  tasks.task_1.OrExpression .up.|> tasks.task_1.Expression
+  tasks.task_1.OrExpression o-- tasks.task_1.Expression : left
+  tasks.task_1.OrExpression o-- tasks.task_1.Expression : right
+  tasks.task_12.File o-- tasks.task_12.Save : save
+  tasks.task_5.PostalOffice .up.|> tasks.task_5.Observed
+  tasks.task_5.PostalOffice .up.|> tasks.task_5.Observer
+  tasks.task_5.Publisher .up.|> tasks.task_5.Observed
+  tasks.task_5.Subscriber1 .up.|> tasks.task_5.Observer
+  tasks.task_5.Subscriber2 .up.|> tasks.task_5.Observer
+  tasks.task_5.Subscriber3 .up.|> tasks.task_5.Observer
+  tasks.task_6.BubbleSort .up.|> tasks.task_6.Sorting
+  tasks.task_6.InsertionSort .up.|> tasks.task_6.Sorting
+  tasks.task_6.SelectionSort .up.|> tasks.task_6.Sorting
+  tasks.task_6.StrategyClient o-- tasks.task_6.Sorting : strategy
+  tasks.task_6.StrategyClient o-- tasks.task_6.Sorting : strategyOfFindingMinMax
+  tasks.task_6.StrategyFindingMinMax .up.|> tasks.task_6.Sorting
+  tasks.task_7.ConfirmedOrder .up.|> tasks.task_7.State
+  tasks.task_7.ConsideredOrder .up.|> tasks.task_7.State
+  tasks.task_7.CreatedOrder .up.|> tasks.task_7.State
+  tasks.task_7.MyOrder .up.|> tasks.task_7.State
+  tasks.task_7.OrderGrant o-- tasks.task_7.State : state
+  tasks.task_7.PostponedOrder .up.|> tasks.task_7.State
+  tasks.task_7.RejectedOrder .up.|> tasks.task_7.State
+  tasks.task_7.WithdrawnOrder .up.|> tasks.task_7.State
+  tasks.task_9.BankPayment -up-|> tasks.task_9.Payment
+  tasks.task_9.GovermentPayment -up-|> tasks.task_9.Payment
+  tasks.task_9.Payment o-- tasks.task_9.Payment : nextPayment
+  tasks.task_9.Payment o-- tasks.task_9.Purposes : purposeOfPayment
+  tasks.task_9.PreferentialPayment -up-|> tasks.task_9.Payment
+  tasks.task_9.UsualPayment -up-|> tasks.task_9.Payment
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
